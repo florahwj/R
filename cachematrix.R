@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+##The following function calculates the mean of the special "matrix" created with the above function. 
 
 cacheSolve <- function(x, ...) {
          m <- x$getinverse()
